@@ -1,0 +1,26 @@
+header {
+    height: 80px;
+
+    h1 {
+        color: #FF2D20;
+        font-size: 32px;
+        font-weight: 700;
+
+        span {
+            color: #fff;
+        }
+    }
+
+    a.active,
+    a:hover {
+        color: #FF2D20;
+        text-decoration: underline;
+        transition: all 0.3s;
+    }
+
+    .header-right ul li h3 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+}
